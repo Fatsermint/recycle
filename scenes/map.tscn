@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bjpc5757tkyqp"]
+
+[node name="map" type="Node3D" unique_id=965711601]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1239248628]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
+use_collision = true
+size = Vector3(100, 0.5, 100)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1979480504]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3056889, 0)
